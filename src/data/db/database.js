@@ -46,13 +46,13 @@ const database = {
       title: "Java",
       experience: "1 Year Academic Experience",
       icon: ['fab', 'java'],
-      details: "My studies are primarily Java based, meaning that I am continually gaining a comprehensive understanding of the technology."
+      details: ""
     },
     {
       title: "C++",
       experience: "1 Year Academic Experience",
       icon: 'code',
-      details: "C++ is another language that I'm learning at University. My Sound Generator application is created with C++, and adaquately showcases my abilites."
+      details: ""
     },
     {
       title: "SQL",
@@ -64,7 +64,7 @@ const database = {
       title: "Python",
       experience: "1 Year Personal Experience",
       icon: ['fab', 'python'],
-      details: "I have been learning Python "
+      details: ""
     }, 
     {
       title: "Ruby",
