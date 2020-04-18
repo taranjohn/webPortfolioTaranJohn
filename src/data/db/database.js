@@ -113,14 +113,14 @@ const database = {
         year: "2020",
         position: "School of Engineering and Computer Science Tutor",
         company: "Victoria University of Wellington",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
+        details: ""
       },
       {
         id: 2,
         year: "2019",
         position: "Merchandiser",
         company: "Coca-Cola Amatil",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
+        details: ""
       }
     ],
     educationExperience: [
@@ -129,21 +129,21 @@ const database = {
         year: "2019 - Present",
         graduation: "Bachelor of Engineering with Honours",
         university: "Victoria University of Wellington",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
+        details: ""
       },
       {
         id: 2,
         year: "2018",
         graduation: "First Year Health Science",
         university: "University of Otago",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
+        details: ""
       },
       {
         id: 3,
         year: "2013 - 2017",
         graduation: "NCEA Levels 1-3 with Excellence",
         university: "St Patrick's College, Wellington",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
+        details: ""
       }
     ],
     communityOutreach: [
@@ -152,22 +152,22 @@ const database = {
         year: "2019 - Present",
         graduation: "Kaibosh Food Rescue",
         university: "",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
+        details: ""
       },
       {
         id: 2,
-        year: "2016",
-        graduation: "Sisters of Compassion Soup Kitchen",
-        university: "",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
-      },
-      {
-        id: 3,
         year: "2015-2017",
         graduation: "St Vincent de Paul Society",
         university: "",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
-      }
+        details: ""
+      },
+      {
+        id: 3,
+        year: "2016",
+        graduation: "Sisters of Compassion Soup Kitchen",
+        university: "",
+        details: ""
+      },
     ]
   },
   contactInfo: {
