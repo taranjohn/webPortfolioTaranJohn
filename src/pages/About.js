@@ -5,11 +5,16 @@ import * as Icon from "react-feather";
 import Sectiontitle from "../components/Sectiontitle";
 import Layout from "../components/Layout";
 import Service from '../components/Service';
+import Smalltitle from '../components/Smalltitle';
+import Resume from "../components/Resume";
+
 
 function About(){
   const [toggler, setToggler] = useState(false);
   const [information, setInformation] = useState("");
   const [services, setServices] = useState([]);
+  const [communityOutreach, setCommunityOutreach] = useState([]);
+
 
   /*const sliderSettings = {
     dots: false,
@@ -47,6 +52,10 @@ function About(){
     axios.get('/api/services')
       .then(response =>{
         setServices(response.data)
+      })
+    axios.get('/api/experience')
+      .then(response =>{
+        setCommunityOutreach(response.data.communityOutreach);
       })
   }, [])
 
@@ -122,6 +131,16 @@ function About(){
                 <div className="col-lg-4 col-md-6 col-12 mt-30" key={service.title}>
                   <Service content={service}/>
                 </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      <div className="mi-skills-area mi-section mi-padding-top">
+        <div className="container">
+            <Smalltitle title="Community Outreach" icon="sun" />
+            <div className="mi-resume-wrapper">
+              {communityOutreach.map(educatonExp => (
+                <Resume key={educatonExp.id} resumeData={educatonExp}/>
               ))}
             </div>
           </div>
