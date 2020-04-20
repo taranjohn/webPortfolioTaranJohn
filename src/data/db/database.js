@@ -31,15 +31,15 @@ const database = {
       details: ""
     },
     {
+      title: "Cloud Computing",
+      icon: 'cloud',
+      details: ""
+    },
+    {
       title: "Data Analytics",
       icon: 'chart-bar',
       details: ""
     }, 
-    {
-      title: "Application Development",
-      icon: 'rocket',
-      details: ""
-    }
   ],
   skills: [
     {

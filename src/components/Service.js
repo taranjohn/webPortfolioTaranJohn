@@ -7,7 +7,8 @@ import {
   faGem, 
   faCode, 
   faLaptopCode, 
-  faRocket, 
+  faRocket,
+  faCloud, 
   faChartBar} from '@fortawesome/free-solid-svg-icons'
 
 library.add(fab, 
@@ -16,6 +17,7 @@ library.add(fab,
   faCode, 
   faLaptopCode,
   faRocket,
+  faCloud,
   faChartBar,
   )
 

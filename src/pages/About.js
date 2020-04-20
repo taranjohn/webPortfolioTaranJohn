@@ -87,7 +87,13 @@ function About(){
                   I am <span className="color-theme">{information.name}</span>
                 </h3>
                 <p>
-                  A motivated, hardworking individual who is interested in gaining working experience in web development. 
+                  I am currently a student at Victoria University of Wellington, working towards a Bachelor of Engineering, majoring in software. 
+                </p>
+                <p>
+                  My studies are my highest priority, and I am ecstatic in saying that I have found my passion in technology. I appreciate the versatility of software engineering, and the fact that it is ever evolving. In particular, I enjoy discovering innovative ways to help make everyday tasks easier and more efficient for all concerned. I have always loved learning, and believe that it goes hand in hand with hard work. As a child of immigrant parents, I have witnessed firsthand the sheer determination required for success in a new environment. With this in mind, I have continually excelled in my academic study. In conjunction with my studies at the university, I have also taken on the role as a tutor and a lab demonstrator in the field of cybersecurity. I believe this opportunity has not only allowed me to connect with my peers, but enhance my own knowledge of the subject through teaching others. My ultimate goal would be to complete my studies, and showcase not only my technical capabilities in the workforce, but also my soft skills by becoming a project manager.
+                </p>
+                <p>
+                  Although I place large emphasis on academics, I also do not take these opportunities for granted. I believe it to be of the utmost importance to give back to the community. For this reason, I have volunteered at organisations such as the Sisters of Compassion Soup Kitchen and St Vincent De Paul from 2016-2017, and as of 2019, I have been working at Kaibosh Food Rescue.
                 </p>
                 {/*<ul>
                   {!information.name ? null : <li>
@@ -137,6 +143,7 @@ function About(){
         </div>
       <div className="mi-skills-area mi-section mi-padding-top">
         <div className="container">
+        <Sectiontitle title="Outside of Tech" />
             <Smalltitle title="Community Outreach" icon="sun" />
             <div className="mi-resume-wrapper">
               {communityOutreach.map(educatonExp => (
