@@ -28,7 +28,7 @@ const database = {
     {
       title: "Full Stack Development",
       icon: 'laptop-code',
-      details: ""
+      details: "My studies are heavily based on developing data structures and algorithms, using back-end technolgies such as Java and Python. In addition to this, I have been steadily learning React JS to augment my front-end development skills."
     },
     {
       title: "Cloud Computing",
@@ -113,15 +113,19 @@ const database = {
         year: "2020",
         position: "School of Engineering and Computer Science Tutor",
         company: "Victoria University of Wellington",
-        details: ""
+        detail_1: "Provided guidance to students through demonstration of laboratory work.",
+        detail_2: "Responsible for marking and providing constructive criticism of students written assignments and lab reports.",
+        detail_3: "",
       },
       {
         id: 2,
         year: "2019",
         position: "Merchandiser",
         company: "Coca-Cola Amatil",
-        details: ""
-      }
+        detail_1: "Stocked and rotated products regularly.",
+        detail_2: "Worked closely with retail department heads to decide how goods should be displayed to maximize customer interest and sales.",
+        detail_3: "",
+      },
     ],
     educationExperience: [
       {
@@ -129,44 +133,56 @@ const database = {
         year: "2019 - Present",
         graduation: "Bachelor of Engineering with Honours",
         university: "Victoria University of Wellington",
-        details: ""
+        detail_1: "",
+        detail_2: "",
+        detail_3: "",
       },
       {
         id: 2,
         year: "2018",
         graduation: "First Year Health Science",
         university: "University of Otago",
-        details: ""
+        detail_1: "Awarded Otago Leaders of Tomorow Scholarship",
+        detail_2: "",
+        detail_3: "",
       },
       {
         id: 3,
-        year: "2013 - 2017",
+        year: "2015 - 2017",
         graduation: "NCEA Levels 1-3 with Excellence",
         university: "St Patrick's College, Wellington",
-        details: ""
+        detail_1: "Head of Spirtual Service",
+        detail_2: "Prefect",
+        detail_3: "Recipient of The Glen Welmhirst Cup for Outstanding Special Character",
       }
     ],
     communityOutreach: [
       {
         id: 1,
         year: "2019 - Present",
-        graduation: "Kaibosh Food Rescue",
-        university: "",
-        details: ""
+        position: "Food Sorter",
+        company: "Kaibosh Food Rescue",
+        detail_1: "Team worker responsible for rescuing food items disposed of by large food retailers.",
+        detail_2: "Responsible for ensuring quality of food rescued to be donated.",
+        detail_3: "",
       },
       {
         id: 2,
         year: "2015-2017",
-        graduation: "St Vincent de Paul Society",
-        university: "",
-        details: ""
+        position: "Representative",
+        company: "St Vincent de Paul Society",
+        detail_1: "Regularly participated in fundraisers for numerous charities through collection buckets and organising raffles.",
+        detail_2: "",
+        detail_3: "",
       },
       {
         id: 3,
         year: "2016",
-        graduation: "Sisters of Compassion Soup Kitchen",
-        university: "",
-        details: ""
+        position: "Volunteer",
+        company: "Sisters of Compassion Soup Kitchen, Wellington",
+        detail_1: "Involved primarily with food preparation and distribution.",
+        detail_2: "Learned to work with patrons from varying backgrounds.",
+        detail_3: "",
       },
     ]
   },
