@@ -25,15 +25,16 @@ const database = {
     cvfile: '/files/cv.pdf'
   },
   services: [
+    
+    {
+      title: "Cloud DevOps",
+      icon: 'cloud',
+      details: "My ultimate career goal is to establish myself in the Cloud DevOps industry. For this reason I devote the majority of my free time learning working through courses on the topic, and am currently working towards an AWS Associate Developer Certification.",
+    },
     {
       title: "Full Stack Development",
       icon: 'laptop-code',
       details: "My studies are heavily based on developing data structures and algorithms, using back-end technolgies such as Java and Python. In addition to this, I have been steadily learning React JS to augment my front-end development skills."
-    },
-    {
-      title: "Cloud Computing",
-      icon: 'cloud',
-      details: ""
     },
     {
       title: "Data Analytics",
@@ -67,9 +68,9 @@ const database = {
       details: ""
     }, 
     {
-      title: "Ruby",
-      experience: "6 Months Personal Experience",
-      icon: 'gem',
+      title: "AWS",
+      experience: "1 Month Personal Experience",
+      icon: ['fab', 'aws'],
       details: ""
     },
     {
@@ -95,7 +96,7 @@ const database = {
       subtitle: "An NBA analytics application.",
       imageUrl: "/images/analyticmvp.jpg",
       largeImageUrl: ["/images/portfolio-image-1-lg.jpg"],
-      url: ''
+      url: 'https://github.com/taranjohn/analyticmvp'
     },
     {
       id: 1,
