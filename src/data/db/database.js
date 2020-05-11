@@ -27,9 +27,9 @@ const database = {
   services: [
     
     {
-      title: "Cloud DevOps",
+      title: "Cloud Computing",
       icon: 'cloud',
-      details: "My ultimate career goal is to establish myself in the Cloud DevOps industry. For this reason I devote the majority of my free time learning working through courses on the topic, and am currently working towards an AWS Associate Developer Certification.",
+      details: "My ultimate career goal is to establish myself in the cloud computing industry. For this reason I devote the majority of my free time learning working through courses on the topic, and am currently working towards an AWS Associate Developer Certification.",
     },
     {
       title: "Full Stack Development",
