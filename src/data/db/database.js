@@ -33,7 +33,7 @@ const database = {
     {
       title: "Cloud Computing",
       icon: 'cloud',
-      details: "My ultimate career goal is to establish myself in the cloud computing industry. For this reason I devote the majority of my free time learning working through courses on the topic, and am currently working towards an AWS Associate Developer Certification.",
+      details: "",
     },
     {
       title: "Data Analytics",
