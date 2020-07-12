@@ -24,17 +24,16 @@ const database = {
     aboutImageLg: '/images/about-image.jpg',
     cvfile: '/files/cv.pdf'
   },
-  services: [
-    
-    {
-      title: "Cloud Computing",
-      icon: 'cloud',
-      details: "My ultimate career goal is to establish myself in the cloud computing industry. For this reason I devote the majority of my free time learning working through courses on the topic, and am currently working towards an AWS Associate Developer Certification.",
-    },
+  services: [  
     {
       title: "Full Stack Development",
       icon: 'laptop-code',
       details: "My studies are heavily based on developing data structures and algorithms, using back-end technolgies such as Java and Python. In addition to this, I have been steadily learning React JS to augment my front-end development skills."
+    },
+    {
+      title: "Cloud Computing",
+      icon: 'cloud',
+      details: "My ultimate career goal is to establish myself in the cloud computing industry. For this reason I devote the majority of my free time learning working through courses on the topic, and am currently working towards an AWS Associate Developer Certification.",
     },
     {
       title: "Data Analytics",
@@ -69,7 +68,7 @@ const database = {
     }, 
     {
       title: "AWS",
-      experience: "1 Month Personal Experience",
+      experience: "3 Months Personal Experience",
       icon: ['fab', 'aws'],
       details: ""
     },
