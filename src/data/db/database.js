@@ -11,10 +11,6 @@ const database = {
     address: '284 Waterloo Road, Welllington, New Zealand',
     freelanceStatus: 'Available',
     socialLinks: {
-      facebook: '',
-      twitter: '',
-      pinterest: '',
-      behance: '',
       linkedin: 'https://www.linkedin.com/in/taranjohn1999',
       dribbble: '',
       github: 'https://github.com/taranjohn'
