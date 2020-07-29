@@ -1,6 +1,5 @@
 import React from "react";
 
-
 function Resume(props) {
   const {year, position, graduation, university, company, detail_1, detail_2, detail_3} = props.resumeData;
   return (
