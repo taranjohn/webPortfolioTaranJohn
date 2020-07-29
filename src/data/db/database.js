@@ -34,7 +34,7 @@ const database = {
     {
       title: "Artificial Intelligence",
       icon: 'lightbulb',
-      details: ""
+      details: "Specialisation"
     }, 
   ],
   skills: [
