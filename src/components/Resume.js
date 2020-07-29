@@ -10,7 +10,6 @@ function Resume(props) {
       <div className="mi-resume-details">
         <h5>{position || graduation}</h5>
         <h6 className="mi-resume-company">{company || university}</h6>
-        {/*<p>{details}</p>*/}
         <ul>
           {!detail_1 ? null : <li>{detail_1}</li> }
           {!detail_2 ? null : <li>{detail_2}</li> }
