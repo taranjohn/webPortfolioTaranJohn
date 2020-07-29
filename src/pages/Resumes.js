@@ -12,8 +12,6 @@ function Resumes(){
   const [educationExperience, setEducationExperience] = useState([]);
   const [services, setServices] = useState([]);
 
-  const [communityOutreach, setCommunityOutreach] = useState([]);
-
 
   useEffect(() =>{
     axios.get('/api/skills')
@@ -24,7 +22,6 @@ function Resumes(){
       .then(response =>{
         setWorkingExperience(response.data.workingExperience);
         setEducationExperience(response.data.educationExperience);
-        setCommunityOutreach(response.data.communityOutreach);
       })
       axios.get('/api/services')
       .then(response =>{
