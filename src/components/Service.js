@@ -9,7 +9,7 @@ import {
   faLaptopCode, 
   faRocket,
   faCloud, 
-  faChartBar} from '@fortawesome/free-solid-svg-icons'
+  faLightbulb} from '@fortawesome/free-solid-svg-icons'
 
 library.add(fab, 
   faDatabase, 
@@ -18,7 +18,7 @@ library.add(fab,
   faLaptopCode,
   faRocket,
   faCloud,
-  faChartBar,
+  faLightbulb,
   )
 
 function Service(props){
