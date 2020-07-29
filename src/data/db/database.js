@@ -32,8 +32,8 @@ const database = {
       details: "",
     },
     {
-      title: "Data Analytics",
-      icon: 'chart-bar',
+      title: "Artificial Intelligence",
+      icon: 'lightbulb',
       details: ""
     }, 
   ],
