@@ -87,7 +87,7 @@ const database = {
     },
     {
       id: 2,
-      title: "Find.",
+      title: "find.",
       subtitle: "An application which finds the articulation points and minimum spanning trees in a set of data.",
       imageUrl: "/images/find.jpg",
       largeImageUrl: ["/images/portfolio-image-1-lg.jpg"],
