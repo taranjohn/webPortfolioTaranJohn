@@ -15,29 +15,6 @@ function About(){
   const [services, setServices] = useState([]);
   const [communityOutreach, setCommunityOutreach] = useState([]);
 
-
-  /*const sliderSettings = {
-    dots: false,
-    infinite: true,
-    arrows: false,
-    speed: 500,
-    slidesToShow: 2,
-    slidesToScroll: 2,
-    autoplay: true,
-    autoplaySpeed: 6000,
-    pauseOnHover: true,
-    adaptiveHeight: true,
-    responsive: [
-      {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      },
-    ]
-  };*/
-
   const handleToggler = (event) => {
     setToggler({
       toggler: event
@@ -95,32 +72,6 @@ function About(){
                 <p>
                   My ultimate goal is to use my technical knowledge and abilities in ways that contribute to the tech industry as well as benefiting society at large.                 
                 </p>
-                {/*<ul>
-                  {!information.name ? null : <li>
-                    <b>Full Name</b> {information.name}
-                  </li>}
-                  {!information.age ? null : <li>
-                    <b>Age</b> {information.age} Years
-                  </li>}
-                  {!information.phone ? null : <li>
-                    <b>Phone</b> {information.phone}
-                  </li>}
-                  {!information.nationality ? null : <li>
-                    <b>Nationality</b> {information.nationality}
-                  </li>}
-                  {!information.language ? null : <li>
-                    <b>Languages</b> {information.language}
-                  </li>}
-                  {!information.email ? null : <li>
-                    <b>Email</b> {information.email}
-                  </li>}
-                  {!information.address ? null : <li>
-                    <b>Address</b> {information.address}
-                  </li>}
-                  {!information.freelanceStatus ? null : <li>
-                    <b>Freelance</b> {information.freelanceStatus}
-                  </li>}
-                  </ul>*/}
                 <a href={information.cvfile} className="mi-button">Download CV</a>
               </div>
             </div>
