@@ -79,22 +79,30 @@ const database = {
   portfolios: [
     {
       id: 1,
+      title: "Online Portfolio",
+      subtitle: "Source code for this website.",
+      imageUrl: "/images/",
+      largeImageUrl: ["/images/portfolio-image-1-lg.jpg"],
+      url: 'https://github.com/taranjohn/fluteSoundGenerator'
+    },
+    {
+      id: 2,
+      title: "Find.",
+      subtitle: "An application which finds the articulation points and minimum spanning trees in a set of data.",
+      imageUrl: "/images/find.jpg",
+      largeImageUrl: ["/images/portfolio-image-1-lg.jpg"],
+      url: 'https://github.com/taranjohn/find'
+    },
+    {
+      id: 3,
       title: "WorkFlow",
-      subtitle: "A job aggregator.",
+      subtitle: "A job aggregator which uses TradeMe and Seek APIs.",
       imageUrl: "/images/workflow.jpg",
       largeImageUrl: ["/images/portfolio-image-1-lg.jpg"],
       url: 'https://github.com/taranjohn/workFlow'
     },
     {
-      id: 1,
-      title: "Analytic M.V.P.",
-      subtitle: "An NBA analytics application.",
-      imageUrl: "/images/analyticmvp.jpg",
-      largeImageUrl: ["/images/portfolio-image-1-lg.jpg"],
-      url: 'https://github.com/taranjohn/analyticmvp'
-    },
-    {
-      id: 1,
+      id: 4,
       title: "Sound Generator",
       subtitle: "A flute sound simulator.",
       imageUrl: "/images/sound.jpg",
