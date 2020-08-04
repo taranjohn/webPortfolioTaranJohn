@@ -16,8 +16,8 @@ const database = {
       github: 'https://github.com/taranjohn'
     },
     brandImage: '/images/profile-photo.jpg',
-    aboutImage: '/images/about-image.jpg',
-    aboutImageLg: '/images/about-image.jpg',
+    aboutImage: '/images/taranjohn.jpg',
+    aboutImageLg: '/images/taranjohn.jpg',
     cvfile: '/files/cv.pdf'
   },
   services: [  
