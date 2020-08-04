@@ -83,7 +83,7 @@ const database = {
       subtitle: "Source code for this website.",
       imageUrl: "/images/",
       largeImageUrl: ["/images/portfolio-image-1-lg.jpg"],
-      url: 'https://github.com/taranjohn/fluteSoundGenerator'
+      url: 'https://github.com/taranjohn/webPortfolioTaranJohn'
     },
     {
       id: 2,
@@ -114,21 +114,21 @@ const database = {
     workingExperience: [
       {
         id: 1,
-        year: "2020",
+        year: "Mar - Jul 2020",
         position: "School of Engineering and Computer Science Tutor",
         company: "Victoria University of Wellington",
-        detail_1: "Provided guidance to students through demonstration of laboratory work.",
-        detail_2: "Responsible for marking and providing constructive criticism of students written assignments and lab reports.",
-        detail_3: "",
+        detail_1: "Awarded the opportunity based on outstanding academic achievement.",
+        detail_2: "Demonstrated leadership to junior students effectively through proven tech ability.",
+        detail_3: "Provided guidance to students through modeling of laboratory work.",
       },
       {
         id: 2,
-        year: "2019",
+        year: "Nov 2019 - Jan 2020",
         position: "Merchandiser",
         company: "Coca-Cola Amatil",
-        detail_1: "Stocked and rotated products regularly.",
-        detail_2: "Worked closely with retail department heads to decide how goods should be displayed to maximize customer interest and sales.",
-        detail_3: "",
+        detail_1: "Displayed sound collaborative skills in a team environment.",
+        detail_2: "Worked closely with retail department heads to maximize customer interest and sales.",
+        detail_3: "Ensured sufficient stock supply on shelves and rotated products regularly.",
       },
     ],
     educationExperience: [
