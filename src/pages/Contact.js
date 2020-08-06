@@ -141,7 +141,7 @@ function Contact(){
                       <Icon.MapPin/>
                     </span>
                     <div className="mi-contact-infoblock-content">
-                      <h6>Address</h6>
+                      <h6>Location</h6>
                       <p>{address}</p>
                     </div>
                   </div>
