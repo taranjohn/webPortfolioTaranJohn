@@ -40,13 +40,13 @@ const database = {
   skills: [
     {
       title: "Java",
-      experience: "1 Year Academic Experience",
+      experience: "18 Months Academic Experience",
       icon: ['fab', 'java'],
       details: ""
     },
     {
       title: "C++",
-      experience: "1 Year Academic Experience",
+      experience: "18 Months Academic Experience",
       icon: 'code',
       details: ""
     },
@@ -58,20 +58,20 @@ const database = {
     },
     {
       title: "Python",
-      experience: "1 Year Personal Experience",
+      experience: "18 Months Personal Experience",
       icon: ['fab', 'python'],
       details: ""
     }, 
     {
-      title: "AWS",
-      experience: "3 Months Personal Experience",
-      icon: ['fab', 'aws'],
+      title: "React JS",
+      experience: "6 Months Personal Experience",
+      icon: ['fab', 'react'],
       details: ""
     },
     {
-      title: "React JS",
+      title: "AWS",
       experience: "3 Months Personal Experience",
-      icon: ['fab', 'react'],
+      icon: ['fab', 'aws'],
       details: ""
     },
     
@@ -191,9 +191,9 @@ const database = {
     ]
   },
   contactInfo: {
-    phoneNumbers: ['+64 212392105'],
-    emailAddress: ['taranjohn@gmail.com', 'johntara@myvuw.ac.nz'],
-    address: "284 Waterloo Road, Waterloo, Lower Hutt, New Zealand"
+    phoneNumbers: ['+64212392105'],
+    emailAddress: ['taranjohn@gmail.com'],
+    address: "Lower Hutt, New Zealand"
   }
 }
 
