@@ -24,18 +24,18 @@ const database = {
     {
       title: "Full Stack Development",
       icon: 'laptop-code',
-      details: "My studies are heavily based on developing data structures and algorithms, using back-end technolgies such as Java and Python. In addition to this, I have been steadily learning React JS to augment my front-end development skills."
+      details: ""
     },
+    {
+      title: "Artificial Intelligence",
+      icon: 'lightbulb',
+      details: ""
+    }, 
     {
       title: "Cloud Computing",
       icon: 'cloud',
       details: "",
     },
-    {
-      title: "Artificial Intelligence",
-      icon: 'lightbulb',
-      details: "Specialisation"
-    }, 
   ],
   skills: [
     {
