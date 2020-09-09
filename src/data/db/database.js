@@ -79,11 +79,11 @@ const database = {
   portfolios: [
     {
       id: 1,
-      title: "Online Portfolio",
-      subtitle: "Source code for this website.",
-      imageUrl: "/images/",
+      title: "WorkFlow",
+      subtitle: "A job aggregator which uses TradeMe and Seek APIs.",
+      imageUrl: "/images/workflow.jpg",
       largeImageUrl: ["/images/portfolio-image-1-lg.jpg"],
-      url: 'https://github.com/taranjohn/webPortfolioTaranJohn'
+      url: 'https://github.com/taranjohn/workFlow'
     },
     {
       id: 2,
@@ -95,19 +95,19 @@ const database = {
     },
     {
       id: 3,
-      title: "WorkFlow",
-      subtitle: "A job aggregator which uses TradeMe and Seek APIs.",
-      imageUrl: "/images/workflow.jpg",
-      largeImageUrl: ["/images/portfolio-image-1-lg.jpg"],
-      url: 'https://github.com/taranjohn/workFlow'
-    },
-    {
-      id: 4,
       title: "Sound Generator",
       subtitle: "A flute sound simulator.",
       imageUrl: "/images/sound.jpg",
       largeImageUrl: ["/images/portfolio-image-1-lg.jpg"],
       url: 'https://github.com/taranjohn/fluteSoundGenerator'
+    },
+    {
+      id: 4,
+      title: "Online Portfolio",
+      subtitle: "Source code for this website.",
+      imageUrl: "/images/react-logo.png",
+      largeImageUrl: ["/images/portfolio-image-1-lg.jpg"],
+      url: 'https://github.com/taranjohn/webPortfolioTaranJohn'
     },
   ],
   experience: {
